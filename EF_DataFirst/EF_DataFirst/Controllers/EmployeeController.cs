@@ -3,31 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using EF_DataFirst.Models;
 
 namespace EF_DataFirst.Controllers
 {
     public class EmployeeController : Controller
     {
-        EmployeeContext db = new EmployeeContext();
+        EmployeeContext1 db = new EmployeeContext1();
+
         // GET: Employee
         public ActionResult Index()
         {
             return View(db.Employees.ToList());
-        }
-
-        public ActionResult Edit()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult Details()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult Delete()
-        {
-            throw new NotImplementedException();
         }
 
         [HttpGet]
@@ -47,6 +34,7 @@ namespace EF_DataFirst.Controllers
             }
 
             return View(employee);
-          
+
+        }
     }
 }
