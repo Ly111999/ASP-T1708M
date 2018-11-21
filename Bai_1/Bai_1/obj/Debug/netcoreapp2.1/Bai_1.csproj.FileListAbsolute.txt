@@ -67,3 +67,4 @@ C:\Users\huong\Documents\Visual Studio 2017\Projects\ASP.NET\Bai_1\Bai_1\obj\Deb
 C:\Users\huong\Documents\Visual Studio 2017\Projects\ASP.NET\Bai_1\Bai_1\obj\Debug\netcoreapp2.1\Bai_1.dll
 C:\Users\huong\Documents\Visual Studio 2017\Projects\ASP.NET\Bai_1\Bai_1\obj\Debug\netcoreapp2.1\Bai_1.pdb
 C:\Users\huong\Documents\Visual Studio 2017\Projects\ASP.NET\Bai_1\Bai_1\obj\Debug\netcoreapp2.1\Bai_1.csproj.CopyComplete
+C:\Users\huong\Documents\Visual Studio 2017\Projects\ASP.NET\Bai_1\Bai_1\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
