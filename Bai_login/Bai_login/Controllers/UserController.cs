@@ -26,6 +26,7 @@ namespace Bai_login.Controllers
         [HttpPost]
         public ActionResult Create(Models.tblUSer user)
         {
+          
             var userDetail = db.tblUSers.FirstOrDefault(x => x.username == user.username && x.password == user.password);
             if (userDetail == null)
             {
